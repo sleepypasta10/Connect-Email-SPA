@@ -9,7 +9,7 @@ function EmailDetail() {
     .filter(item => item.id === id)
     .reduce(pre => pre)
 
-  // console.log(message);
+  
   return (
     <div className='w-[830px] relative'>
       <div className='grid grid-cols-12 p-6'>
